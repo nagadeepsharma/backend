@@ -1,9 +1,8 @@
 from api.serializers import Blogsserializer, Projectsserializer
 from api.models import Blogs, Projects
-from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from taggit.models import Tag
+
 
 # Create your views here.
 @api_view(['GET'])

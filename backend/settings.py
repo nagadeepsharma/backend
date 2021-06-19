@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--knv7^-&0g_@#owbfx^7xvc&yd5%0qrx2v*g+0dt3!gpii_$_e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nagadeepsharma.pythonanywhere.com']
 
 
 # Application definition
@@ -108,6 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
