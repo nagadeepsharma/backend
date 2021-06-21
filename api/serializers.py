@@ -10,4 +10,4 @@ class Projectsserializer(serializers.ModelSerializer):
 class Blogsserializer(serializers.ModelSerializer):
     class Meta:
         model=Blogs
-        fields=('id','title','description','content',)
+        fields=('id','title','description','content','created')
